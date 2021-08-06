@@ -1,0 +1,41 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 980px;
+  border: 2px solid magenta;
+}
+.container-nav {
+  width: 95%;
+}
+h1 {
+  color: #143774;
+  font: normal normal normal 33px/42px Lora;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  padding: 1rem;
+  font: normal normal bold 16px/18px Ubuntu;
+  letter-spacing: 3.2px;
+  color: #717171;
+  text-transform: uppercase;
+  opacity: 1;
+}
+nav a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+.subtitle {
+  font: normal normal bold 12px/13px Ubuntu;
+  letter-spacing: 2.4px;
+  color: #1792d2;
+  text-transform: uppercase;
+  opacity: 1;
+}

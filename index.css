@@ -7,10 +7,22 @@
 .container-nav {
   width: 95%;
 }
+header {
+  text-align: center;
+}
+
 h1 {
   color: #143774;
   font: normal normal normal 33px/42px Lora;
 }
+.subtitle {
+  font: normal normal bold 12px/13px Ubuntu;
+  letter-spacing: 2.4px;
+  color: #1792d2;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -29,13 +41,8 @@ nav a {
   text-decoration: none;
 }
 
-header {
-  text-align: center;
-}
-.subtitle {
-  font: normal normal bold 12px/13px Ubuntu;
-  letter-spacing: 2.4px;
-  color: #1792d2;
-  text-transform: uppercase;
-  opacity: 1;
+@media (max-width: 675px) {
+  nav ul {
+    flex-direction: column;
+  }
 }

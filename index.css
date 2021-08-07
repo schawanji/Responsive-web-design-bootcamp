@@ -5,7 +5,13 @@
   border: 2px solid magenta;
 }
 .container-nav {
-  width: 95%;
+  display: flex;
+}
+
+@media (max-width: 675px) {
+  .container {
+    flex-direction: column;
+  }
 }
 header {
   text-align: center;
@@ -26,7 +32,7 @@ h1 {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 nav li {
